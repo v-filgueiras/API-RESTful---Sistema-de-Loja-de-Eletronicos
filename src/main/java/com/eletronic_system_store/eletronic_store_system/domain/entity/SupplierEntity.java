@@ -22,8 +22,8 @@ public class SupplierEntity {
     private String email;
 
     public SupplierEntity(String name, String cnpjCode, String email) {
-        setName(name);
-        setCode(cnpjCode);
+        setSupplierName(name);
+        setCnpjCode(cnpjCode);
         setEmail(email);
     }
 
